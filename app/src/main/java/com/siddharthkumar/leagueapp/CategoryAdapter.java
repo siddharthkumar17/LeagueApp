@@ -33,9 +33,9 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         if (position == 0) {
             return new ChampionsFragment();
-        } else if (position == 1) {
+        } else if(position == 1){
             return new ProfileFragment();
-        } else{
+        }else{
             return new FriendsFragment();
         }
     }
@@ -50,11 +50,12 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     @Override
     public CharSequence getPageTitle(int position) {
+
         if (position == 0) {
             return "Champions";
-        } else if (position == 1) {
-            return "Stats";
-        } else {
+        } else if(position == 1) {
+            return "Profile";
+        } else{
             return "Friends";
         }
     }
