@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.siddharthkumar.leagueapp.MainActivity">
+    tools:context="com.siddharthkumar.leagueapp.MainActivity"
+    android:background="#002984">
 
     <android.support.design.widget.TabLayout
         android:id="@+id/tabs"
